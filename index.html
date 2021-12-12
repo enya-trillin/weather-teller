@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Teller</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="weather=app">
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-9">
+            <input type="search" placeholder="Type a city..." autofocus="on" autocomplete="off" id="city-input" class="form-control"></div>
+            <div class="col-3" id="button">
+              <input type="submit" value="Search"form-control btn btn-primary shadow-sm">
+              <span><button id="current-location">Current Location</button></span></div> 
+          </div>
+        </form>
+        <h1 id="city">Perth WA, Australia </h1>
+     <p>
+      <h3> Tuesday 16:21 </h3>
+          <span> Partly Cloudy </span>
+     </p>
+        <div class="col-6">
+          <div class="icon"> 
+              <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Cloudy icon" class="weather-icon float-left">
+              <div class="float-left">
+                <span class="temperature" id="temperature">17</span>
+                <span class="units">
+                  <a href="#" id="celsius-link">°C</a>
+                  "|"
+                  <a href="#" id="fahrenheit-link">°F</a>
+                </span>
+              </div>
+            </break>  
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li id="ppt">Precipitation:23%</li>
+                <li id="humid">Humidity:64%</li>
+                <li id="wind">Wind:4km/h</li>
+              </ul>
+            </div>
+    </div>
+  </div>
+</div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
