@@ -1,4 +1,7 @@
-body {
-    font-family: sans-serif;
-  }
-  
+.weather-app {
+    font-family: sans-serif;  
+display:block;
+ margin:0,auto;}
+
+ .search-form{display:block;
+margin:0, auto;}
